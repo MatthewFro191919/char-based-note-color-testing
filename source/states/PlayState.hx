@@ -39,6 +39,7 @@ import shaders.ErrorHandledShader;
 
 import objects.VideoSprite;
 import objects.Note.EventNote;
+import objects.Note.PreloadedChartNote;
 import objects.*;
 import states.stages.*;
 import states.stages.objects.*;
