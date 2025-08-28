@@ -721,7 +721,6 @@ class PlayState extends MusicBeatState
 			case 'tank': new stages.Tank(); //Week 7 - Ugh, Guns, Stress
 			case 'phillyStreets': new stages.PhillyStreets(); 	//Weekend 1 - Darnell, Lit Up, 2Hot
 			case 'phillyBlazin': new stages.PhillyBlazin();	//Weekend 1 - Blazin
-			case 'phillyStreetsBF': new stages.PhillyStreetsBF(); //Darnell (BF Mix)
 		}
 
 		if (Paths.formatToSongPath(SONG.song) == 'stress')
