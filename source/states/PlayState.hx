@@ -864,7 +864,7 @@ class PlayState extends MusicBeatState
 			dad = new Character(0, 0, "");
 			dadGroup.add(dad);
 
-			boyfriend = new Boyfriend(0, 0, "");
+			boyfriend = new Character(0, 0, "");
 			boyfriendGroup.add(boyfriend);
 		} else {
 			dad = new Character(0, 0, SONG.player2);
