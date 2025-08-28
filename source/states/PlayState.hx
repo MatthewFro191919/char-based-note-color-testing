@@ -873,7 +873,7 @@ class PlayState extends MusicBeatState
 			startCharacterLua(dad.curCharacter);
 			dadNoteskin = dad.noteskin;
 
-			boyfriend = new Boyfriend(0, 0, SONG.player1);
+			boyfriend = new Character(0, 0, SONG.player1);
 			startCharacterPos(boyfriend);
 			boyfriendGroup.add(boyfriend);
 			startCharacterLua(boyfriend.curCharacter);
@@ -1787,7 +1787,7 @@ class PlayState extends MusicBeatState
 		switch(type) {
 			case 0:
 				if(!boyfriendMap.exists(newCharacter)) {
-					var newBoyfriend:Boyfriend = new Boyfriend(0, 0, newCharacter);
+					var newBoyfriend:boyfriend = new Character(0, 0, newCharacter);
 					boyfriendMap.set(newCharacter, newBoyfriend);
 					boyfriendGroup.add(newBoyfriend);
 					startCharacterPos(newBoyfriend);
