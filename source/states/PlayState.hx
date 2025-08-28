@@ -172,7 +172,7 @@ class PlayState extends MusicBeatState
 	var introGo:FlxSound;
 	public var dad:Character = null;
 	public var gf:Character = null;
-	public var boyfriend:Boyfriend = null;
+	public var boyfriend:Character = null;
 	public var bfNoteskin:String = null;
 	public var dadNoteskin:String = null;
 
